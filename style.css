@@ -41,17 +41,14 @@ nav span {
 .content {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   border: 2px solid black;
   padding-top: 116px;
-  flex-direction: row;
 }
 
 .maincontent #firstcolumn {
   width: 630px;
   border: 1px solid black;
   display: flex;
-  flex: 1 1 630px;
   padding-right: 32px;
 }
 
@@ -60,8 +57,6 @@ nav span {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  flex: 1 1 300px;
-  padding-right: 32px;
 }
 
 .maincontent #thirdcolumn {
@@ -69,7 +64,7 @@ nav span {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  flex: 1 1 240px;
+  padding-left: 32px;
 }
 
 .maincontent #leadphotocontent {
